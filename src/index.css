@@ -1,0 +1,11 @@
+@import "tailwindcss";
+
+/* Poppins Semi Bold globally */
+body, html, #root {
+	font-family: 'Poppins', Arial, Helvetica, sans-serif;
+}
+
+/* Tailwind custom font utility */
+.font-poppins {
+	font-family: 'Poppins', Arial, Helvetica, sans-serif;
+}
