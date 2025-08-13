@@ -2,13 +2,13 @@ import { useEffect, useState, useRef } from 'react';
 
 // Use 7 images from assets
 const HERO_IMAGES = [
-  '/src/assets/freeze ig post 3.png',
-  '/src/assets/freeze ig post 4.png',
-  '/src/assets/freeze ig post 7.png',
-  '/src/assets/freeze ig post 8.png',
-  '/src/assets/freeze ig post 9.png',
-  '/src/assets/freeze ig post 10.png',
-  '/src/assets/freeze ig post 11.png',
+  'assets/freeze ig post 3.png',
+  'assets/freeze ig post 4.png',
+  'assets/freeze ig post 7.png',
+  'assets/freeze ig post 8.png',
+  'assets/freeze ig post 9.png',
+  'assets/freeze ig post 10.png',
+  'assets/freeze ig post 11.png',
 ];
 const SLIDE_INTERVAL = 3500; // ms
 
@@ -163,7 +163,7 @@ const Home = ({ style }: { style: React.CSSProperties }) => {
         {/* Mobile: Smaller width */}
         <div className="flex md:hidden w-[90vw] max-w-md h-[60vh] min-h-[320px] items-center justify-center overflow-hidden rounded-2xl shadow-xl border-2 border-green-400/30 mb-4">
           <img 
-            src="/src/assets/freeze w3.png" 
+            src="/assets/freeze w3.png" 
             alt="FREEZƎ Drink" 
             className="w-full h-full object-contain object-center transition-transform duration-700 hover:scale-105 bg-black" 
             style={{ maxHeight: '60vh' }}
@@ -171,7 +171,7 @@ const Home = ({ style }: { style: React.CSSProperties }) => {
         </div>
         <div className="flex md:hidden w-[90vw] max-w-md h-[60vh] min-h-[320px] items-center justify-center overflow-hidden rounded-2xl shadow-xl border-2 border-green-400/30">
           <img 
-            src="/src/assets/freeze web1.png" 
+            src="/assets/freeze web1.png" 
             alt="Regular Drink" 
             className="w-full h-full object-contain object-center transition-transform duration-700 hover:scale-105 bg-black" 
             style={{ maxHeight: '60vh' }}
@@ -181,7 +181,7 @@ const Home = ({ style }: { style: React.CSSProperties }) => {
         <div className="hidden md:flex flex-col w-full">
           <div className="w-full h-screen flex items-center justify-center overflow-hidden">
             <img 
-              src="/src/assets/freeze w3.png" 
+              src="/assets/freeze w3.png" 
               alt="FREEZƎ Drink" 
               className="w-full h-full object-cover object-center transition-transform duration-700 hover:scale-105" 
               style={{ maxHeight: '100vh' }}
@@ -189,7 +189,7 @@ const Home = ({ style }: { style: React.CSSProperties }) => {
           </div>
           <div className="w-full h-screen flex items-center justify-center overflow-hidden">
             <img 
-              src="/src/assets/freeze web1.png" 
+              src="/assets/freeze web1.png" 
               alt="Regular Drink" 
               className="w-full h-full object-cover object-center transition-transform duration-700 hover:scale-105" 
               style={{ maxHeight: '100vh' }}

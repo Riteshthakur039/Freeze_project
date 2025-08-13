@@ -1,5 +1,5 @@
 import { memo, useState } from 'react';
-import freezeLogo from '../assets/freeze logo.png';
+import freezeLogo from '/assets/freeze logo.png';
 import { useNavigate } from 'react-router-dom';
 
 type Section = {

@@ -1,4 +1,4 @@
-import freezeLogo from '../assets/freeze logo.png';
+import freezeLogo from '/assets/freeze logo.png';
 
 const Footer = () => {
   return (

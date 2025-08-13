@@ -99,7 +99,7 @@ const Contact = ({ style }: { style: React.CSSProperties }) => {
         <div className="mt-16 w-full max-w-7xl mx-auto">
           <div className="flex flex-col md:flex-row items-center gap-8 sm:gap-12 animate-fade-in delay-200 pb-4">
             <img
-              src="/src/assets/freeze ig post 11.png"
+              src="/assets/freeze ig post 11.png"
               alt="Freeze Cheers"
               className="w-full max-w-sm h-64 sm:h-80 object-cover rounded-2xl border-4 border-green-300 shadow-2xl"
               style={{ filter: "drop-shadow(0 0 40px #4ade80)" }}

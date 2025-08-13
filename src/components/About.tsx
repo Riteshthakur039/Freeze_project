@@ -1,30 +1,30 @@
 const galleryImages = [
   {
-    url: '/src/assets/freeze ig post 3.png',
+    url: '/assets/freeze ig post 3.png',
     text: 'Sip the Chill, Feel the Thrill',
   },
   {
-    url: '/src/assets/freeze ig post 4.png',
+    url: '/assets/freeze ig post 4.png',
     text: 'Zero Sugar, Infinite Vibes',
   },
   {
-    url: '/src/assets/freeze ig post 7.png',
+    url: '/assets/freeze ig post 7.png',
     text: 'Refreshment, Redefined',
   },
   {
-    url: '/src/assets/freeze ig post 8.png',
+    url: '/assets/freeze ig post 8.png',
     text: 'Drink Different. Live Different.',
   },
   {
-    url: '/src/assets/freeze ig post 9.png',
+    url: '/assets/freeze ig post 9.png',
     text: 'Cooler Than Ever',
   },
   {
-    url: '/src/assets/freeze ig post 10.png',
+    url: '/assets/freeze ig post 10.png',
     text: 'Unleash the Freeze',
   },
   {
-    url: '/src/assets/freeze ig post 11.png',
+    url: '/assets/freeze ig post 11.png',
     text: 'Pure Mojito Magic',
   },
 ];
@@ -90,7 +90,7 @@ const About = ({ style }: { style: React.CSSProperties }) => {
               ${inView ? 'opacity-100 translate-x-0' : 'opacity-0 translate-x-20'}`}
           >
             <img
-              src="/src/assets/freeze ig post 11.png"
+              src="/assets/freeze ig post 11.png"
               alt="Freeze Story Visual"
               className="w-full h-full object-cover object-center rounded-3xl shadow-2xl"
               style={{ minHeight: '350px', minWidth: '300px', maxHeight: '880px', maxWidth: '100%' }}
